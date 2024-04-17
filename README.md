@@ -2,6 +2,14 @@
 
 WhatTree is an interactive web platform for exploring and learning about various tree species globally. Users can contribute by uploading tree photos with location data, and the platform maps these locations and provides insights into the ecological significance of the trees.
 
+## Link to WhatTree
+
+https://whattree.azurewebsites.net/
+
+## Functional Description
+
+The uploaded image's metadata is searched for latitude, longitude and the capture time and date. Then, the image is compressed and then sent to Gemini Pro Vision API, which then gives the details of the tree/plant in the image. Then, the image is stored in Azure Blob and a link to that is generated, which is stored in MongoDb alongside other plant details. Folium and Leaflet.js are used to show the map and mark the markers and their clusters. The TreeView page lets the user cycle through all the tree/plant uploads letting the user see all the details of the tree. The backend functionalities are written in Flask(Python) and JavaScript.
+
 ## Features
 
 - Interactive global map with tree locations
