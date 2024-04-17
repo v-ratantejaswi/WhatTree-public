@@ -77,5 +77,5 @@ If you would like to contribute to the development of WhatTree, please contact R
 
 ## Forking
 - If you fork or use this project as a part of your own, please give appropriate attribution by linking back to the original repository and citing the author's work.
-- Remember to replace the placeholders with your actual GitHub username and other relevant information. Also, you should create the `CONTRIBUTING.md` files withi your GitHub repository to provide detailed information on how to contribute and the terms of using your project, respectively.
+- Remember to replace the placeholders with your actual GitHub username and other relevant information. Also, you should create the `CONTRIBUTING.md` files within your GitHub repository to provide detailed information on how to contribute and the terms of using your project, respectively.
 
